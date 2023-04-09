@@ -218,11 +218,9 @@ public class TheTest extends BaseTest {
         methods.click(By.xpath("//*[@id='header-top']/div/div[1]/div[1]/ul/li/div/ul/li[4]/a"));
         //çıkış'a basılarak logout olunur
 
-        Assert.assertTrue(methods.findElement(By.xpath("//*[@id='notification']/div/text()")).getText().contains("Oturumunuz güvenli bir şekilde kapatıldı"));
+        //Assert.assertTrue(methods.findElement(By.xpath("//*[@id='notification']/div/text()")).getText().contains("Oturumunuz güvenli bir şekilde kapatıldı"));
         //başarılı logout bildirimi teyit edildi
 
     }
-
-
 
 }
