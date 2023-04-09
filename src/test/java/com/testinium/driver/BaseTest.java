@@ -37,7 +37,7 @@ public class BaseTest {
 
     }
 
-    /*@After
+    @After
     public void tearDown()
     {
         if(driver != null)
@@ -47,7 +47,7 @@ public class BaseTest {
         }
 
 
-    }*/
+    }
 
 
 
