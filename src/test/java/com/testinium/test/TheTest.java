@@ -15,6 +15,11 @@ public class TheTest extends BaseTest {
 
         methods.click(By.xpath("//div[@class='menu-top-button login']"));
         methods.waitBySeconds(1);
+
+        methods.click(By.xpath("//*[@id='js-popup-accept-button']"));
+        methods.waitBySeconds(3);
+        //çerez kabul et butonu
+
         methods.sendKeys(By.id("login-email"), "bipekk12@gmail.com");
         methods.waitBySeconds(1);
         methods.sendKeys(By.id("login-password"), "berkaytest");
